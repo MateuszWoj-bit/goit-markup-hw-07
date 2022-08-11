@@ -18,31 +18,31 @@
     />
   </head>
   <body>
-    <header class="menu page-header">
+    <header class="page-header">
       <div class="container">
         <h1 class="logo page-header__logo">
-          <a href="./index.html" class=""><span class="blue logo__span">Web</span>Studio</a>
+          <a href="./index.html" class=""><span class="logo__span--brand">Web</span>Studio</a>
         </h1>
-        <nav>
-          <ul class="navigation nav1 navigation__list navigation__agencja">
-            <li class="navigation-item navigation__list-item"><a href="./index.html" class="link navigation__link">Agencja</a></li>
-            <li class="navigation-item navigation__list-item"><a href="./portfolio.html" class="link navigation__link">Portfolio</a></li>
-            <li><a href="#" class="link navigation__link">Kontakt</a></li>
+        <nav class="navigation">
+          <ul class="navigation__list navigation__agencja">
+            <li class="navigation__list-item"><a href="./index.html" class="navigation__link">Agencja</a></li>
+            <li class="navigation__list-item"><a href="./portfolio.html" class="navigation__link">Portfolio</a></li>
+            <li><a href="#" class="navigation__link">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="contact email">
+        <ul class="email">
           <li>
-            <svg width="16" height="12" class="envelope-svg email__svg-envelope">
+            <svg width="16" height="12" class="email__svg-envelope">
               <use href="./images/sprite.svg#icon-envelope"></use>
             </svg>
           </li>
-          <li class="navigation-item email__list-item">
+          <li class="email__list-item">
             <a href="mailto:info@devstudio.com" class="">info@devstudio.com</a>
           </li>
         </ul>
         <ul class="phone">
           <li>
-            <svg width="10" height="16" class="mobile-svg phone__svg-mobile">
+            <svg width="10" height="16" class="phone__svg-mobile">
               <use href="./images/sprite.svg#icon-smartphone-1"></use>
             </svg>
           </li>
@@ -51,69 +51,69 @@
       </div>
     </header>
     <main>
-      <section class="tools banner">
+      <section class="banner">
         <div class="container">
-          <h2 class="white banner_title">
+          <h2 class="banner__title">
             Efektywne rozwiązania<br />
             dla waszego biznesu
           </h2>
-          <button data-modal-open type="button banner_button">Zamów usługe</button>
+          <button data-modal-open type="button" class="banner__button">Zamów usługe</button>
         </div>
       </section>
       <div class="section">
         <div class="container">
           <ul class="features-list">
-            <li>
+            <li class="features-list__list-item">
               <section class="feature-box">
-                <div class="feature-svg-box feature-box__box-svg>
-                  <svg width="70" height="70" class="feature-svg feature-box__svg">
+                <div class="feature-svg-box feature-box__box-svg">
+                  <svg width="70" height="70" class="feature-box__svg">
                     <use href="./images/sprite.svg#icon-antenna-1"></use>
                   </svg>
                 </div>
-                <h3 class="lorem feature-box__title">Lorem ipsum</h3>
-                <p class="grey feature-box__paragraph">
+                <h3 class="feature-box__title">Lorem ipsum</h3>
+                <p class="feature-box__paragraph">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                   sodales dui. Interdum et malesuada
                 </p>
               </section>
             </li>
-            <li>
+            <li class="features-list__list-item">
               <section class="feature-box">
                 <div class="feature-svg-box feature-box__box-svg">
-                  <svg width="70" height="70" class="feature-svg feature-box__svg">
+                  <svg width="70" height="70" class="feature-box__svg">
                     <use href="./images/sprite.svg#icon-clock-1"></use>
                   </svg>
                 </div>
-                <h3 class="lorem feature-box__title">Lorem ipsum</h3>
-                <p class="grey feature-box__paragraph">
+                <h3 class="feature-box__title">Lorem ipsum</h3>
+                <p class="feature-box__paragraph">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                   sodales dui. Interdum et malesuada
                 </p>
               </section>
             </li>
-            <li>
+            <li class="features-list__list-item">
               <section class="feature-box">
                 <div class="feature-svg-box feature-box__box-svg">
-                  <svg width="70" height="70" class="feature-svg feature-box__svg">
+                  <svg width="70" height="70" class="feature-box__svg">
                     <use href="./images/sprite.svg#icon-diagram-1"></use>
                   </svg>
                 </div>
-                <h3 class="lorem feature-box__title">Lorem ipsum</h3>
-                <p class="grey feature-box__paragraph">
+                <h3 class="feature-box__title">Lorem ipsum</h3>
+                <p class="feature-box__paragraph">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                   sodales dui. Interdum et malesuada
                 </p>
               </section>
             </li>
-            <li>
+            <li class="features-list__list-item">
               <section class="feature-box">
                 <div class="feature-svg-box feature-box__box-svg">
-                  <svg width="70" height="70" class="feature-svg feature-box__svg">
+                  <svg width="70" height="70" class="feature-box__svg">
                     <use href="./images/sprite.svg#icon-astronaut-1"></use>
                   </svg>
                 </div>
-                <h3 class="lorem feature-box__title">Lorem ipsum</h3>
-                <p class="grey feature-box__paragraph">
+                <h3 class="feature-box__title">Lorem ipsum</h3>
+                <p class="feature-box__paragraph">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                   sodales dui. Interdum et malesuada
                 </p>
@@ -125,9 +125,9 @@
       <section class="section">
         <div class="container">
           <h2 class ="headline-2">Czym się zajmujemy</h2>
-          <ul class="what-we-do-list what-we-do">
-            <li class="what-we-do-list-item what-we-do__list">
-              <figure class="what-we-do-figure what-we-do__figure">
+          <ul class="what-we-do">
+            <li class="what-we-do__list">
+              <figure class="what-we-do__figure">
                 <img
                   src="./images/what-we-do-1.jpg"
                   alt="Ręce piszące kod na klawiaturze na podstawie diagramu"
@@ -137,26 +137,26 @@
                 <figcaption class="what-we-do-caption-1 what-we-do__caption-1">Aplikacje komputerowe</figcaption>
               </figure>
             </li>
-            <li class="what-we-do-list-item what-we-do__list">
-              <figure class="what-we-do-figure what-we-do__figure">
+            <li class="what-we-do__list">
+              <figure class="what-we-do__figure">
                 <img
                   src="./images/what-we-do-2.jpg"
                   alt="Dłonie trzymające smartfon oraz ekaran laptopa przedstawiający rodzaje układów treści mobilnych"
                   width="370"
                   height="294"
                 />
-                <figcaption class="what-we-do-caption-2 what-we-do__caption-2">Aplikacje mobilne</figcaption>
+                <figcaption class="what-we-do__caption-2">Aplikacje mobilne</figcaption>
               </figure>
             </li>
-            <li class="what-we-do-list-item what-we-do__list">
-              <figure class="what-we-do-figure what-we-do__figure">
+            <li class="what-we-do__list">
+              <figure class="what-we-do__figure">
                 <img
                   src="./images/what-we-do-3.jpg"
                   alt="Dłonie trzymające tablet z wyborem pełnej gamy kolorów"
                   width="370"
                   height="294"
                 />
-                <figcaption class="what-we-do-caption-3 what-we-do__caption-3">Rozwiązania graficzne</figcaption>
+                <figcaption class="what-we-do__caption-3">Rozwiązania graficzne</figcaption>
               </figure>
             </li>
           </ul>
@@ -170,33 +170,33 @@
               <li>
                 <figure class="team-figure team__figure">
                   <img
-                    class="team-figure-img"
+                    class=""
                     src="./images/our-team-1.jpg"
                     alt="Zdjęcie John'a Doe"
                     width="270"
                     height="260"
                   />
-                  <figcaption class="team-list-caption team__caption">
+                  <figcaption class="team__caption">
                     John Doe
-                    <p class="job-title team__job-title"><span class="grey team__span">Product Designer</span></p>
-                    <ul class="team-social-list social-icons">
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                    <p class="team__job-title"><span class="team__span">Product Designer</span></p>
+                    <ul class="social-icons">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-instagram"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse-1"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse-2"></use>
                         </svg>
                       </li>
@@ -204,36 +204,36 @@
                   </figcaption>
                 </figure>
               </li>
-              <li class="team-list-item team__list-item">
-                <figure class="team-figure team__figure">
+              <li class="team__list-item">
+                <figure class="team__figure">
                   <img
-                    class="team-figure-img"
+                    class=""
                     src="./images/our-team-2.jpg"
                     alt="Zdjęcie John'a Doe"
                     width="270"
                     height="260"
                   />
-                  <figcaption class="team-list-caption team__caption">
+                  <figcaption class="team__caption">
                     John Doe
-                    <p class="job-title team__job-title"><span class="grey team__span">Frontend Developer</span></p>
-                    <ul class="team-social-list social-icons">
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                    <p class="team__job-title"><span class="team__span">Frontend Developer</span></p>
+                    <ul class="social-icons">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-instagram"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse-1"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse-2"></use>
                         </svg>
                       </li>
@@ -241,36 +241,36 @@
                   </figcaption>
                 </figure>
               </li>
-              <li class="team-list-item team__list-item">
-                <figure class="team-figure team__figure">
+              <li class="team__list-item">
+                <figure class="team__figure">
                   <img
-                    class="team-figure-img"
+                    class=""
                     src="./images/our-team-3.jpg"
                     alt="Zdjęcie John'a Doe"
                     width="270"
                     height="260"
                   />
-                  <figcaption class="team-list-caption team__caption">
+                  <figcaption class="team__caption">
                     John Doe
-                    <p class="job-title team__job-title"><span class="grey team__span">Marketing</span></p>
-                    <ul class="team-social-list social-icons">
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                    <p class="team__job-title"><span class="team__span">Marketing</span></p>
+                    <ul class="social-icons">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-instagram"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse-1"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse-2"></use>
                         </svg>
                       </li>
@@ -278,36 +278,36 @@
                   </figcaption>
                 </figure>
               </li>
-              <li class="team-list-item team__list-item">
-                <figure class="team-figure team__figure">
+              <li class="team__list-item">
+                <figure class="team__figure">
                   <img
-                    class="team-figure-img"
+                    class=""
                     src="./images/our-team-4.jpg"
                     alt="Zdjęcie John'a Doe"
                     width="270"
                     height="260"
                   />
-                  <figcaption class="team-list-caption team__caption">
+                  <figcaption class="team__caption">
                     John Doe
-                    <p class="job-title team__job-title"><span class="grey team__span">UI Designer</span></p>
-                    <ul class="team-social-list social-icons">
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                    <p class="team__job-title"><span class="team__span">UI Designer</span></p>
+                    <ul class="social-icons">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-instagram"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse-1"></use>
                         </svg>
                       </li>
-                      <li class="team-social-list-item social-icons__list-item">
-                        <svg width="44" height="44" class="social-svg social-icons__svg">
+                      <li class="social-icons__list-item">
+                        <svg width="44" height="44" class="social-icons__svg">
                           <use href="./images/sprite.svg#icon-Ellipse-2"></use>
                         </svg>
                       </li>
@@ -322,45 +322,45 @@
       <section class="section">
         <div class="container">
           <h2 class ="headline-2">Nasi klienci</h2>
-          <ul class="customers-list customers">
-            <li>
-              <div class="customer-svg-box customers__box-svg">
-                <svg width="106" height="60" class="customer-svg customers__svg">
+          <ul class="customers">
+            <li class="customers__list">
+              <div class="customers__box-svg">
+                <svg width="106" height="60" class="customers__svg">
                   <use href="./images/sprite.svg#icon-Logo--1"></use>
                 </svg>
               </div>
             </li>
-            <li>
-              <div class="customer-svg-box customers__box-svg">
-                <svg width="106" height="60" class="customer-svg customers__svg">
+            <li class="customers__list">
+              <div class="customers__box-svg">
+                <svg width="106" height="60" class="customers__svg">
                   <use href="./images/sprite.svg#icon-Logo"></use>
                 </svg>
               </div>
             </li>
-            <li>
-              <div class="customer-svg-box customers__box-svg">
-                <svg width="106" height="60" class="customer-svg customers__svg">
+            <li class="customers__list">
+              <div class="customers__box-svg">
+                <svg width="106" height="60" class="customers__svg">
                   <use href="./images/sprite.svg#icon-Logo-3"></use>
                 </svg>
               </div>
             </li>
-            <li>
-              <div class="customer-svg-box customers__box-svg">
-                <svg width="106" height="60" class="customer-svg customers__svg">
+            <li class="customers__list">
+              <div class="customers__box-svg">
+                <svg width="106" height="60" class="customers__svg">
                   <use href="./images/sprite.svg#icon-Logo-2"></use>
                 </svg>
               </div>
             </li>
-            <li>
-              <div class="customer-svg-box customers__box-svg">
-                <svg width="106" height="60" class="customer-svg customers__svg">
+            <li class="customers__list">
+              <div class="customers__box-svg">
+                <svg width="106" height="60" class="customers__svg">
                   <use href="./images/sprite.svg#icon-Logo-1"></use>
                 </svg>
               </div>
             </li>
-            <li>
-              <div class="customer-svg-box customers__box-svg">
-                <svg width="106" height="60" class="customer-svg customers__svg">
+            <li class="customers__list">
+              <div class="customers__box-svg">
+                <svg width="106" height="60" class="customers__svg">
                   <use href="./images/sprite.svg#icon-Logo1"></use>
                 </svg>
               </div>
@@ -372,9 +372,9 @@
     <footer class="page-footer">
       <div class="container">
         <section class="footer-address page-footer__adress">
-          <h2 class="footer-logo page-footer__logo">
+          <h2 class="footer-logo logo page-footer__logo">
             <a href="./index.html" class="link"
-              ><span class="blue page-footer__color--brand">Web</span><span class="white page-footer__color--white">Studio</span></a
+              ><span class="blue logo__span--brand">Web</span><span class="white logo__span--white">Studio</span></a
             >
           </h2>
           <span class="white page-footer__color--white">m. Warszawa, Aleje Jerozolimskie 21</span>
